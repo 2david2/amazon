@@ -4,44 +4,82 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <style>
+
         .menu{
             height:30px;
-            display: inline-block;
+            display: inline;
+          float: left;
+
         }
      .amazon{
          height:auto;
          width:150px;
          margin-left: auto;
-         display: inline-block;
+         display: inline;
+    float: left;
      }
-.search{
-    height: 30px;
-    width: 700px;
-    margin-left: 20px;
-    display: inline-block;
-}
-.search2{
-     height: 30px;
-    width: 30px;
-    display: inline-block;
-}
-.button{
+    .search{
+         height: 30px;
+         width: 700px;
+         margin-left: 20px;
+        display: inline;
+    float: left;
+            }
+    .search2{
+          height: 30px;
+          width: 30px;
+        display: inline;
+        float: left;
+    }
+    .button{
     height:35px;
-    display: inline-block;
+    display: inline;
+    float: left;
+    }
+       .button1 {
+    height:35px;
+           width: auto;
+    display: inline;
+    float: left;
+    }
 
-}
+
 
     </style>
 </head>
-<body >
+<body>
 
+<div class="div">
 <div>
-    <img class="menu" src="menu.png">
+    <img  class="menu" src="menu.png">
     <img class="amazon" src="amazon.png">
+
 </div>
+
+
 <center>
+       <select  class="button">
+         <option>All</option>
+         <option>Arts</option>
+         <option>Books</option>
+         <option>Digital music</option>
+         <option>Man's fashion</option>
+         <option>Woman's fashion</option>
+         <option>Home&Kitcen</option>
+         <option>Sport</option>
+         <option>Video games</option>
+
+    </select>
    <input class="search" type="text">
     <button class="button" ><img  class="search2" src="search.jpg"> </button>
+    <button class="button">Sign in</button>
+    <button class="button">Sign up</button>
+    <button class="button">Oders</button>
+    <button class="button"><img height="25" width="35" src="telega.jpg"></button>
+</br>
+    <div>
+        <div>
+    </div>
 </center>
 </body>
 </html>
